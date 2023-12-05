@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BANGOR BURGER</title>
+
+    <!-- style font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icon js -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- go to css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- navbar start  -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Burger <span>Bangor.</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- navbar end  -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Nikmati Setiap Gigitannya</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, esse.
+        </p>
+        <a href="#" class="cta">Buy <span>Now!</span></a>
+      </main>
+    </section>
+
+    <!-- Hero Section end -->
+
+    <!-- about section start-->
+    <section id="about" class="about">
+      <h2><span>About</span> Us</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/about-us.jpg" alt="About us" />
+        </div>
+        <div class="content">
+          <h3>Why You Choice This Hamburger?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+            nemo.
+          </p>
+          <p>Lorem, ipsum dolor.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section end-->
+
+    <!-- menu section start-->
+    <section id="menu" class="menu">
+      <h2><span>Signature</span> Menu</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, beatae?
+      </p>
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/5.jpg" alt="Hamburger" class="menu-card-img" />
+          <h2 class="Menu-card-title">Hamburger</h2>
+          <p class="menu-card-price">IDR 35K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/1.jpg" alt="Fried Fries" class="menu-card-img" />
+          <h2 class="Menu-card-title">Fried Fries</h2>
+          <p class="menu-card-price">IDR 25K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/4.jpg" alt="Pizza" class="menu-card-img" />
+          <h2 class="Menu-card-title">Pizza</h2>
+          <p class="menu-card-price">IDR 50K</p>
+        </div>
+      </div>
+    </section>
+    <!-- menu section end-->
+
+    <!-- contact section start-->
+    <section id="contact" class="contact">
+      <h2><span>Contact</span> Person</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, beatae?
+      </p>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.556820495783!2d115.19959597361746!3d-8.638472587833562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd23fa49102c7b5%3A0xe4e7229274317f2a!2sBurger%20Bangor%20Gatsu!5e0!3m2!1sid!2sid!4v1701438608441!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form action="">
+          <div class="input-groub">
+            <i data-feather="users"></i>
+            <input type="text" placeholder="Nama" />
+          </div>
+          <div class="input-groub">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+          <div class="input-groub">
+            <i data-feather="phone"></i>
+            <input type="number" placeholder="No Telp" />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- contact section end-->
+
+    <!-- footer section start-->
+    <footer>
+      <div class="social">
+        <a href="#"><i data-feather="facebook"></i></a>
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="linkedin"></i></a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="created">
+        <p>created by <a href="">Ryanganteng</a>.| &copy ; 2023</p>
+      </div>
+    </footer>
+    <!-- footer section end-->
+
+    <!-- icon feater -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- javascrips -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
